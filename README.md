@@ -25,5 +25,11 @@
 * Stack Area
   - 지역 변수, 파라미터 등이 생성되는 영역, 동적으로 객체를 생성하면 실제 객체는 Heap에 할당되고 해당 레퍼런스만 Stack에 저장된다. Stack은 스레드별로 독자적으로 가진다.
 
+* PC Register
+  - 현재 쓰레드가 실행되는 부분의 주소와 명령을 저장하고 있다.(CPU의 PC Register와 다르다)
+
+* Native Method Stack
+  - 자바외 언어로 작성된 네이티브 코드를 위한 메모리 영역
+
 
 출처: https://velog.io/@litien/JVM-%EA%B5%AC%EC%A1%B0
