@@ -7,11 +7,11 @@
 
 ![image](https://user-images.githubusercontent.com/24876345/104185787-cdb55380-5458-11eb-99ac-1f86cfc670c6.png)
 
-# Execution Engine
+### Execution Engine
 * 메모리에 적재된 클래스들을 기계어로 변경해 명령어 단위로 실행하는 역할을 한다.
 * 명렁어를 하나 하나 실행하는 인터프리터 방식과 실행 시점에 자주 쓸만한 코드들을 기계어로 변환 시켜놓고 저장해서 사용하는 JIT 방식이 있다.
 
-# Garbage Collector
+### Garbage Collector
 * Heap 메모리 영영에 생성 된 객체들중에 Reachability를 잃은 객체를 탐색 후 제거하는 역할을 한다.
 
 출처: https://velog.io/@litien/JVM-%EA%B5%AC%EC%A1%B0
