@@ -17,13 +17,13 @@
 
 ### Runtime Data Area
 * Method Area
-- 클래스 멤버 변수, 메소드 정보, Type(Class or interface)정보, Constant Pool, static, final 변수 등이 생성된다. 상수 풀은 모든 Symbolic Refernce를 포함하고 있다.
+  - 클래스 멤버 변수, 메소드 정보, Type(Class or interface)정보, Constant Pool, static, final 변수 등이 생성된다. 상수 풀은 모든 Symbolic Refernce를 포함하고 있다.
 
 * Heap Area
-- 동적으로 생성된 오브젝트와 배열이 저장되는 곳으로 Garbage Collection의 대상이 되는 영역이다.
+  - 동적으로 생성된 오브젝트와 배열이 저장되는 곳으로 Garbage Collection의 대상이 되는 영역이다.
 
 * Stack Area
-- 지역 변수, 파라미터 등이 생성되는 영역, 동적으로 객체를 생성하면 실제 객체는 Heap에 할당되고 해당 레퍼런스만 Stack에 저장된다. Stack은 스레드별로 독자적으로 가진다.
+  - 지역 변수, 파라미터 등이 생성되는 영역, 동적으로 객체를 생성하면 실제 객체는 Heap에 할당되고 해당 레퍼런스만 Stack에 저장된다. Stack은 스레드별로 독자적으로 가진다.
 
 
 출처: https://velog.io/@litien/JVM-%EA%B5%AC%EC%A1%B0
